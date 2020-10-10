@@ -22,7 +22,7 @@ class FlutterForWallePlugin: FlutterPlugin, MethodCallHandler {
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
     context = flutterPluginBinding.applicationContext
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_for_walle")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "kaige.com/flutter_for_walle")
     channel.setMethodCallHandler(this)
   }
 

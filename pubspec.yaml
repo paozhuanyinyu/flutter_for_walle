@@ -1,7 +1,7 @@
 name: flutter_for_walle
 description: A new flutter plugin project.
 version: 0.0.3
-homepage:
+homepage: https://github.com/paozhuanyinyu/flutter_for_walle
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
